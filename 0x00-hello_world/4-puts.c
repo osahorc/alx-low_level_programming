@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * Main - Prints what was said
+ * main -prints "Programming is like building a multilingual puzzle"
  *
  * Return: Always (0)
  */
