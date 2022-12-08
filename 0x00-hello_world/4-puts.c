@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*
+/**
  * main -prints "Programming is like building a multilingual puzzle".
- * description: this program is described
- * return: Always 0.
+ * 
+ * Description: 'this program is described.'
+ * 
+ * Return: Always 0.
  */
 int main(void)
 {
