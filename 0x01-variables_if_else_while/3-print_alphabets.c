@@ -15,7 +15,7 @@ int main(void)
 
 {
 	char n;
-	
+
 	char o;
 
 	for (n = 'a'; n <= 'z'; n++)
@@ -25,7 +25,7 @@ int main(void)
 	for (o = 'A'; o <= 'Z'; o++)
 	{
 		putchar (o);
-	} 
+	}
 	putchar('\n');
 return (0);
 }
