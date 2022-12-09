@@ -15,16 +15,16 @@ int main(void)
 
 {
 	char n;
-
+	
 	char o;
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
 		putchar (n);
 	}
-	for (o = 'A';o <= 'Z'; o++)
+	for (o = 'A'; o <= 'Z'; o++)
 	{
-		putchar (n);
+		putchar (o);
 	} 
 	putchar('\n');
 return (0);
