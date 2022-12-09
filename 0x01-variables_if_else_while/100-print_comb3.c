@@ -19,11 +19,12 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		for (b ='0'; b <= '9'; b++)
+		for (b = '0'; b <= '9'; b++)
 		{
 			putchar(n);
 			putchar(b);
-		if ((n != '9') && (b != '9'))
+		if ((n == '9') && (b == '9'))
+			continue
 		{
 			putchar (',');
 			putchar (' ');
