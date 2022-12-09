@@ -24,7 +24,7 @@ int main(void)
 			putchar(n);
 			putchar(b);
 		if ((n == '9') && (b == '9'))
-			continue
+			continue;
 		{
 			putchar (',');
 			putchar (' ');
