@@ -20,12 +20,14 @@ int main(void)
 	for (n = '0'; n <= '9'; n++)
 	{
 		for (b ='0'; b <= '9'; b++)
-		putchar(n);
-		putchar(b);
-		if (n != '9') & (b != '9')
+		{
+			putchar(n);
+			putchar(b);
+		if ((n != '9') && (b != '9'))
 		{
 			putchar (',');
 			putchar (' ');
+		}
 		}
 	}
 	putchar('\n');
