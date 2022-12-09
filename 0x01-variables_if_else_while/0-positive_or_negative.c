@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include <time.h>
 
-/* main - this is the main function
+/**
+ * main - this is the main function
  *
- * Description: - This is the dectiption.
+ * Description: -this is the dectiption.
+ * it has two lines
  *
  * Return: Always return 0.
  */
@@ -19,6 +21,6 @@ if (n > 0)
 else if (n < 0)
 	printf("%d is negative\n", n);
 else
-	printf("%d, is zero\n", n);
+	printf("%d is zero\n", n);
 return (0);
 }
