@@ -8,7 +8,7 @@
  * Return: Always return 0.
  */
 int _putchar(char c);
-int main(void);
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
