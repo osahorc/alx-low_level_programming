@@ -1,20 +1,15 @@
+#include "main.h"
 
 /**
- * main - this is the main function
- *
- * Description: -this is the dectiption.
- * it has two lines
- *
- * Return: Always return 0.
+ * print_alphabet - prints alphabets
  */
-
-/* c is a character that will be printed to the screen */
-int _putchar(char c);
 void print_alphabet(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar (c);
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
 	_putchar('\n');
-	return;
 }
