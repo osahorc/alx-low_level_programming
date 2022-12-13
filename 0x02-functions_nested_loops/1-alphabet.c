@@ -1,4 +1,4 @@
-#include "main.h"
+
 /**
  * main - this is the main function
  *
@@ -9,7 +9,7 @@
  */
 
 /* c is a character that will be printed to the screen */
-int main(void)
+
 {
 	char n;
 	for (n = 'a'; n <= 'z'; n++)
