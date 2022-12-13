@@ -9,7 +9,7 @@
  */
 
 /* c is a character that will be printed to the screen */
-
+void print_alphabet(void)
 {
 	char n;
 	for (n = 'a'; n <= 'z'; n++)
