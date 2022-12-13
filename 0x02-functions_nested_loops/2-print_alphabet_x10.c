@@ -20,7 +20,7 @@ int b;
 	for (b = 1; b <= 10; b++)
 	{
 		for (c ='a'; c <='z'; c++)
-			_putchar (c);
+			_putchar(c);
 	}
 	_putchar('\n');
 	return;
