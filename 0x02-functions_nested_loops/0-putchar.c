@@ -7,6 +7,8 @@
  *
  * Return: Always return 0.
  */
+
+/* c is a character that will be printed to the screen */
 int _putchar(char c);
 int main(void)
 {
