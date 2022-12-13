@@ -9,6 +9,7 @@
  */
 
 /* c is a character that will be printed to the screen */
+int _putchar(char c);
 void print_alphabet(void)
 {
 	char n;
