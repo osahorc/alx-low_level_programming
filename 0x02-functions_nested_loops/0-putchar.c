@@ -1,3 +1,4 @@
+#include <unistd.h>
 /**
  * main - this is the main function
  *
