@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 /**
  * main - this is the main function
  *
@@ -9,17 +9,14 @@
  */
 
 /* c is a character that will be printed to the screen */
-void print_alphabet(void);
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char n;
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar (n);
+
+	}
 	_putchar('\n');
 	return (0);
 }
