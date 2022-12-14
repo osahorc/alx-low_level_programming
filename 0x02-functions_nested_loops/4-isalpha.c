@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * _alpha - prints alphabets
  * @c: charter to cehck
