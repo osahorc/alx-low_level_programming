@@ -2,7 +2,7 @@
 /**
  * main - this is the main function
  *
- * Description: -this is the dectiption.
+ * @c:his is the dectiption.
  * it has two lines
  *
  * Return: Always return 0.
