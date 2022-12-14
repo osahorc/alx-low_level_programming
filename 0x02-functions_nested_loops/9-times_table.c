@@ -10,6 +10,7 @@ void times_table(void)
 {
 	int row;
 	int line;
+	int answer;
 
 	for (row = 0; row <= 9; row++)
 	{
