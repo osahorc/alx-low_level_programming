@@ -2,17 +2,19 @@
 
 /**
  * islower - prints alphabets
- *
+ * @c: charter to cehck
  *Return: 0 if lower
  -1 if otherwise
  */
-int _islower(int)
+int _islower(int c)
 {
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
+	if (c >= 'a ' && c <= 'z')
 	{
-		_putchar(i);
+		return(1);
+	}
+	else
+	{
+		return(0);
 	}
 	_putchar('\n');
 }
