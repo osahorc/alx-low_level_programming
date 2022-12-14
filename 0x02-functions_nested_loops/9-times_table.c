@@ -21,6 +21,11 @@ void times_table(void)
 			_putchar('0' + answer);
 			_putchar(',');
 			_putchar(' ');
+			if (answer < 9)
+				_putchar(' ');
+			else 
+				_putchar((answer / 10) + '0');
+			_putchar((answer % 10) + '0');
 			
 		}
 		_putchar('\n');
