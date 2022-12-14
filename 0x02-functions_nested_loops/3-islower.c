@@ -3,8 +3,8 @@
 /**
  * islower - prints alphabets
  * @c: charter to cehck
- *Return: 0 if lower
- -1 if otherwise
+ * Return: 0 if lower 
+ * -1 if otherwise
  */
 int _islower(int c)
 {
