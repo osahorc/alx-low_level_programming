@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - prints alphabets
- * @n: number to cehck
+ *
  * Return: 0 if lower
  * -1 if otherwise
  */
