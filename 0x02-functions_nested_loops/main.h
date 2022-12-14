@@ -8,5 +8,6 @@ int _islower(int c);
 int _isalpha(int c);
 void test_isalpha(int n);
 int print_sign(int n);
+int _abs(int);
 
 #endif /* MAIN_H */
