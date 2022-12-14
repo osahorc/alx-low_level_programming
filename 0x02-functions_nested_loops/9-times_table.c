@@ -8,19 +8,20 @@
  */
 void times_table(void)
 {
-	int minute;
-	int hour;
+	int row;
+	int line;
 
-	for (hour = 0; hour <= 23; hour++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (minute = 0; minute <= 59; minute++)
+		for (line= 0; line <= 9; line++)
 		{
-			_putchar((hour / 10) + '0');
-			_putchar((hour % 10) + '0');
-			_putchar(':');
-			_putchar((minute / 10) + '0');
-			_putchar((minute % 10) + '0');
-			_putchar('\n');
+			answer = row * line;
+
+			_putchar(answer);
+			_putchar(',');
+			_putchar(' ');
+			
 		}
+		_putchar('\n');
 	}
 }
