@@ -2,19 +2,25 @@
 
 /**
  * print_sign - prints alphabets
- * @c: charter to cehck
+ * @n: number to cehck
  * Return: 0 if lower
  * -1 if otherwise
  */
 int print_sign(int n)
 {
-	if (c >= 'a' && c <= 'z')
+	if (n > 0)
 	{
-		return (1);
+		_putchar('+');
+			return (0);
+	}
+	else if ( n == 0)
+	{
+		_putchar('0');
+		return (0);
 	}
 	else
 	{
-		return (0);
+		_putchar('-');
+			return (-1);
 	}
-	_putchar('\n');
 }
