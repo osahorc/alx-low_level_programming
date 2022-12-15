@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * _isupper - checks if it is upper
  *
@@ -11,7 +11,5 @@
 
 int _isupper(int c)
 {
-	if (c => 'A' && c <= 'Z')
-		return (1);
-	return (0);
+	return isupper (c);
 }
