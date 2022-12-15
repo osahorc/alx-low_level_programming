@@ -1,14 +1,14 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
- * _islower - prints alphabets
+ * _alpha - prints alphabets
  * @c: charter to cehck
  * Return: 0 if lower
  * -1 if otherwise
  */
-int _islower(int c)
+int _alpha(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
