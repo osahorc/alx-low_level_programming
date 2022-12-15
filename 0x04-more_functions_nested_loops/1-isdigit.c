@@ -1,20 +1,13 @@
 #include "main.h"
 #include <ctype.h>
+
 /**
- * _alpha - prints alphabets
+ * _isupper - multipies figures
  * @c: charter to cehck
- * Return: 0 if lower
- * -1 if otherwise
+ * Return: result of multiplication
  */
-int _alpha(int c)
+int _isdigit(int c)
+
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-	_putchar('\n');
+	return isdigit(c);
 }
