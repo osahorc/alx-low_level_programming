@@ -4,7 +4,7 @@
  * print_numbers - multipies figures
  * charter to cehck
  * second carachter to multiply
- * Return: result of multiplication
+ * Return: void
  */
 void print_numbers(void)
 
