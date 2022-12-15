@@ -2,10 +2,11 @@
 #include <ctype.h>
 
 /**
- * _isupper - multipies figures
+ * _isdigit - multipies figures
  * @c: charter to cehck
- * Return: result of multiplication
+ * Return: result 0 of 1 multiplication
  */
+
 int _isdigit(int c)
 
 {
