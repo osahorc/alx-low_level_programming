@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers 0 to 9 except 2 and 4, and then prints a new line
- * 
+ * print_numbers - prints 0 to 9 without 2 and 4
+ *
  * Return: void
  */
+
 void print_numbers(void)
+
 {
 	int i;
 
@@ -13,7 +15,7 @@ void print_numbers(void)
 	{
 		if (i != 2 && i != 4)
 		{
-		_putchar(48 + i);
+			_putchar('0' + i);
 		}
 	}
 	_putchar('\n');
