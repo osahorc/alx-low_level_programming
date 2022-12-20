@@ -9,7 +9,7 @@
  */
 
 void print_rev(char *s)
-
+int _strlen(char *s)
 {
 	int len = _strlen(s);
 	int count;
