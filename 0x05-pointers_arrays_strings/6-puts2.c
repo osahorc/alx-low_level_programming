@@ -11,7 +11,6 @@
 
 void puts2(char *str)
 {
-	
 	int count;
 
 	for (count = 0; count != '\0'; count += 2)
