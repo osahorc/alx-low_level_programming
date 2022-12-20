@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * print_rev - resets a pointer to 98
@@ -9,7 +10,6 @@
  */
 
 void print_rev(char *s)
-int _strlen(char *s)
 {
 	int len = _strlen(s);
 	int count;
