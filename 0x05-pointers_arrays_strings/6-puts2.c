@@ -4,7 +4,7 @@
 /**
  * puts2 - resets a pointer to 98
  *
- * @s: The value of the pointed
+ * @str: The value of the pointed
  *
  * Return: void
  */
@@ -16,7 +16,7 @@ void puts2(char *str)
 
 	for (count = 0; count != '\0'; count += 2)
 	{
-		_putchar(s[count]);
+		_putchar(str[count]);
 	}
 	_putchar('\n');
 }
