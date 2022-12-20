@@ -17,13 +17,15 @@ int main()
 
 {
 	srand(time(0));
+
 	char password[PASSWORD_LENGTH + 1];
+	
 	int i;
 
-	for (i = 0; i < password; i++)
+	for (i = 0; i < PASSWORD_LENGTH; i++)
 	{
 	password[i] = 'a' + (rand() % 26);
 	}
 	password[PASSWORD_LENGTH] = '\0';
-print ("Password: %d\n", password);
+	printf("Password: %d\n", password);
 }
