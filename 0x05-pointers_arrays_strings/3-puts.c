@@ -11,7 +11,7 @@
 void _puts(char *str)
 
 {
-	char count;
+	char* count;
 
 	for (count = 0; str[count] != '\0'; count++)
 	{
