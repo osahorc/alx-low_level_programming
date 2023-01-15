@@ -3,7 +3,9 @@
 /**
  * main - print fizzbuzz
  *
- * Return: 0
+ * It prints the main code.
+ *
+ * Return: Always 0
  */
 
 int main(void)
